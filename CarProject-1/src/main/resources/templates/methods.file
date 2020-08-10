@@ -1,0 +1,13 @@
+## User rest methods
+getUser/id= api/v1/{id}
+postUser = api/v1/{id}
+getUser = api/v1
+putUser = api/user/{id}
+deleteUser = api/delete/{id}
+
+## Cars rest method
+postCars = api/v2/{id}/cars
+getCars/id = api/v2/{id}
+getCars = api/v2/all
+deleteCar = api/v2/cancle/{carid}
+putcars = api/v1/{userId}/cars/{carid}
